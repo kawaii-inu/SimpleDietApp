@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/weightFragment"
+        android:icon="@drawable/balance_scale_3d"
+        android:title="weight" />
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/fox_3d"
+        android:title="home" />
+    <item
+        android:id="@+id/foodFragment"
+        android:icon="@drawable/steaming_bowl_3d"
+        android:title="food" />
+</menu>
