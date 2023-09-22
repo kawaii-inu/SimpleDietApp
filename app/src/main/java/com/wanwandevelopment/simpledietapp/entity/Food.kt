@@ -3,12 +3,11 @@ package com.wanwandevelopment.simpledietapp.entity
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.Date
 
 @Entity
 data class Food(
-    @PrimaryKey
-    val uid: Int,
+    @PrimaryKey(autoGenerate = true)
+    val id: Int = 0,
 
     @ColumnInfo(name = "calorie")
     val calorie: Int?,
@@ -20,5 +19,5 @@ data class Food(
     val fiber: Int?,
 
     @ColumnInfo(name = "created_at")
-    val created_at: Date
+    val created_at: Long?
 )
